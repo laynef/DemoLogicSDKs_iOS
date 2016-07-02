@@ -44,6 +44,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="logoutButton" destination="bRR-eG-nLJ" id="UKD-qb-FCP"/>
+                        <outlet property="logoutTitleLabel" destination="u9c-7n-IXH" id="Zcf-wy-MhJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LbK-3r-SqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

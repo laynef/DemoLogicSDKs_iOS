@@ -11,6 +11,9 @@ import UIKit
 class LogoutViewController: UIViewController {
     
     
+    @IBOutlet weak var logoutTitleLabel: UILabel!
+    @IBOutlet weak var logoutButton: UIBarButtonItem!
+    
     @IBAction func logoutButtonPressed(sender: AnyObject) {
         
     }

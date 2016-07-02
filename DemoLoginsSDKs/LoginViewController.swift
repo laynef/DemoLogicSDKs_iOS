@@ -10,7 +10,6 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    
     // MARK: - Login View Controller Oulets
     @IBOutlet weak var loginTitleLabel: UILabel!
     @IBOutlet weak var loginUsernameTextfield: UITextField!
