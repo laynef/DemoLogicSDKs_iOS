@@ -10,6 +10,11 @@ import UIKit
 
 class LogoutViewController: UIViewController {
     
+    
+    @IBAction func logoutButtonPressed(sender: AnyObject) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

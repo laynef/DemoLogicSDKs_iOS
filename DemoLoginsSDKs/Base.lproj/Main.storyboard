@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yay! It works!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9c-7n-IXH">
-                                <rect key="frame" x="173" y="273" width="254" height="54"/>
+                                <rect key="frame" x="20" y="240" width="560" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="u9c-7n-IXH" secondAttribute="height" multiplier="207:44" id="RyX-75-DPs"/>
                                 </constraints>
@@ -32,11 +32,17 @@
                         <color key="backgroundColor" red="0.18444697600000001" green="0.35966763369999999" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="u9c-7n-IXH" firstAttribute="centerY" secondItem="cW7-kh-dzy" secondAttribute="centerY" id="3HK-cx-Fue"/>
+                            <constraint firstItem="u9c-7n-IXH" firstAttribute="trailing" secondItem="cW7-kh-dzy" secondAttribute="trailingMargin" id="ByY-rk-tvL"/>
                             <constraint firstItem="u9c-7n-IXH" firstAttribute="centerX" secondItem="cW7-kh-dzy" secondAttribute="centerX" id="rA3-lu-cqQ"/>
+                            <constraint firstItem="u9c-7n-IXH" firstAttribute="leading" secondItem="cW7-kh-dzy" secondAttribute="leadingMargin" id="vYc-6u-5OK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dlw-gR-WH7">
-                        <barButtonItem key="leftBarButtonItem" title="Logout" id="bRR-eG-nLJ"/>
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="bRR-eG-nLJ">
+                            <connections>
+                                <action selector="logoutButtonPressed:" destination="7vV-qM-BZd" id="ap0-wt-UY6"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LbK-3r-SqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
