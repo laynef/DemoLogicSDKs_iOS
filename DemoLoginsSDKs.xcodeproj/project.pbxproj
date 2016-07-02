@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D98C21B01D2755F700481196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21AF1D2755F700481196 /* AppDelegate.swift */; };
-		D98C21B21D2755F700481196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21B11D2755F700481196 /* ViewController.swift */; };
+		D98C21B21D2755F700481196 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21B11D2755F700481196 /* LoginViewController.swift */; };
 		D98C21B51D2755F700481196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C21B31D2755F700481196 /* Main.storyboard */; };
 		D98C21B81D2755F700481196 /* DemoLoginsSDKs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D98C21B61D2755F700481196 /* DemoLoginsSDKs.xcdatamodeld */; };
 		D98C21BA1D2755F700481196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98C21B91D2755F700481196 /* Assets.xcassets */; };
 		D98C21BD1D2755F700481196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C21BB1D2755F700481196 /* LaunchScreen.storyboard */; };
 		D98C21C81D2755F800481196 /* DemoLoginsSDKsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21C71D2755F800481196 /* DemoLoginsSDKsTests.swift */; };
 		D98C21D31D2755F800481196 /* DemoLoginsSDKsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21D21D2755F800481196 /* DemoLoginsSDKsUITests.swift */; };
+		D98C21E11D27577D00481196 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21E01D27577D00481196 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		D98C21AC1D2755F700481196 /* DemoLoginsSDKs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLoginsSDKs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98C21AF1D2755F700481196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D98C21B11D2755F700481196 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98C21B11D2755F700481196 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D98C21B41D2755F700481196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D98C21B71D2755F700481196 /* DemoLoginsSDKs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoLoginsSDKs.xcdatamodel; sourceTree = "<group>"; };
 		D98C21B91D2755F700481196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D98C21CE1D2755F800481196 /* DemoLoginsSDKsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLoginsSDKsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98C21D21D2755F800481196 /* DemoLoginsSDKsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLoginsSDKsUITests.swift; sourceTree = "<group>"; };
 		D98C21D41D2755F800481196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98C21E01D27577D00481196 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D98C21AF1D2755F700481196 /* AppDelegate.swift */,
-				D98C21B11D2755F700481196 /* ViewController.swift */,
+				D98C21E21D2757B000481196 /* ViewControllers */,
 				D98C21B31D2755F700481196 /* Main.storyboard */,
 				D98C21B91D2755F700481196 /* Assets.xcassets */,
 				D98C21BB1D2755F700481196 /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				D98C21D41D2755F800481196 /* Info.plist */,
 			);
 			path = DemoLoginsSDKsUITests;
+			sourceTree = "<group>";
+		};
+		D98C21E21D2757B000481196 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D98C21B11D2755F700481196 /* LoginViewController.swift */,
+				D98C21E01D27577D00481196 /* LogoutViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98C21B81D2755F700481196 /* DemoLoginsSDKs.xcdatamodeld in Sources */,
-				D98C21B21D2755F700481196 /* ViewController.swift in Sources */,
+				D98C21B21D2755F700481196 /* LoginViewController.swift in Sources */,
+				D98C21E11D27577D00481196 /* LogoutViewController.swift in Sources */,
 				D98C21B01D2755F700481196 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
