@@ -20,6 +20,7 @@ class LogoutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        logoutTitleLabel.text = "Yay! It works!"
     }
 
 }

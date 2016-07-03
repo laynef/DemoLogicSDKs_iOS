@@ -36,3 +36,27 @@ class LoginViewController: UIViewController {
 
 }
 
+// MARK: - Login View Controller (Facebook)
+extension LoginViewController {
+    
+}
+
+// MARK: - Login View Controller (Twitter)
+extension LoginViewController {
+    
+}
+
+// MARK: - Login View Controller (Google)
+extension LoginViewController {
+    
+}
+
+// MARK: - Login View Controller (LinkedIn)
+extension LoginViewController {
+    
+}
+
+// MARK: - Login View Controller ()
+extension LoginViewController {
+    
+}

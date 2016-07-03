@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D97E0BB31D29AD6100E71057 /* FacebookCilent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E0BB11D29AD6100E71057 /* FacebookCilent.swift */; };
+		D97E0BB41D29AD6100E71057 /* FacebookConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E0BB21D29AD6100E71057 /* FacebookConstants.swift */; };
+		D97E0BCB1D29D8C700E71057 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BC81D29D8C700E71057 /* Bolts.framework */; };
+		D97E0BCC1D29D8C700E71057 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BC91D29D8C700E71057 /* FBSDKCoreKit.framework */; };
+		D97E0BCD1D29D8C700E71057 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BCA1D29D8C700E71057 /* FBSDKLoginKit.framework */; };
+		D97E0BD51D29D8DB00E71057 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BCE1D29D8DB00E71057 /* GoogleAppUtilities.framework */; };
+		D97E0BD61D29D8DB00E71057 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BCF1D29D8DB00E71057 /* GoogleAuthUtilities.framework */; };
+		D97E0BD71D29D8DB00E71057 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BD01D29D8DB00E71057 /* GoogleNetworkingUtilities.framework */; };
+		D97E0BD81D29D8DB00E71057 /* GoogleSignIn.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BD11D29D8DB00E71057 /* GoogleSignIn.bundle */; };
+		D97E0BD91D29D8DB00E71057 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BD21D29D8DB00E71057 /* GoogleSignIn.framework */; };
+		D97E0BDA1D29D8DB00E71057 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BD31D29D8DB00E71057 /* GoogleSymbolUtilities.framework */; };
+		D97E0BDB1D29D8DB00E71057 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97E0BD41D29D8DB00E71057 /* GoogleUtilities.framework */; };
 		D98C21B01D2755F700481196 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21AF1D2755F700481196 /* AppDelegate.swift */; };
 		D98C21B21D2755F700481196 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21B11D2755F700481196 /* LoginViewController.swift */; };
 		D98C21B51D2755F700481196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98C21B31D2755F700481196 /* Main.storyboard */; };
@@ -36,6 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D97E0BB11D29AD6100E71057 /* FacebookCilent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookCilent.swift; sourceTree = "<group>"; };
+		D97E0BB21D29AD6100E71057 /* FacebookConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookConstants.swift; sourceTree = "<group>"; };
+		D97E0BB71D29B0E900E71057 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		D97E0BC21D29B0E900E71057 /* GGLConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGLConfiguration.h; sourceTree = "<group>"; };
+		D97E0BC31D29B0E900E71057 /* GGLContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGLContext.h; sourceTree = "<group>"; };
+		D97E0BC41D29B0E900E71057 /* GGLErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGLErrorCode.h; sourceTree = "<group>"; };
+		D97E0BC71D29D82F00E71057 /* DemoLoginsSDKs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoLoginsSDKs-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D97E0BC81D29D8C700E71057 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4.13.1/Bolts.framework"; sourceTree = "<group>"; };
+		D97E0BC91D29D8C700E71057 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.13.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		D97E0BCA1D29D8C700E71057 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.13.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		D97E0BCE1D29D8DB00E71057 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = google_signin_sdk_4_0_0/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		D97E0BCF1D29D8DB00E71057 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = google_signin_sdk_4_0_0/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		D97E0BD01D29D8DB00E71057 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = google_signin_sdk_4_0_0/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		D97E0BD11D29D8DB00E71057 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = google_signin_sdk_4_0_0/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		D97E0BD21D29D8DB00E71057 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk_4_0_0/GoogleSignIn.framework; sourceTree = "<group>"; };
+		D97E0BD31D29D8DB00E71057 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = google_signin_sdk_4_0_0/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		D97E0BD41D29D8DB00E71057 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = google_signin_sdk_4_0_0/GoogleUtilities.framework; sourceTree = "<group>"; };
 		D98C21AC1D2755F700481196 /* DemoLoginsSDKs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLoginsSDKs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98C21AF1D2755F700481196 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98C21B11D2755F700481196 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +87,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97E0BD51D29D8DB00E71057 /* GoogleAppUtilities.framework in Frameworks */,
+				D97E0BD61D29D8DB00E71057 /* GoogleAuthUtilities.framework in Frameworks */,
+				D97E0BD71D29D8DB00E71057 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				D97E0BD81D29D8DB00E71057 /* GoogleSignIn.bundle in Frameworks */,
+				D97E0BD91D29D8DB00E71057 /* GoogleSignIn.framework in Frameworks */,
+				D97E0BDA1D29D8DB00E71057 /* GoogleSymbolUtilities.framework in Frameworks */,
+				D97E0BDB1D29D8DB00E71057 /* GoogleUtilities.framework in Frameworks */,
+				D97E0BCB1D29D8C700E71057 /* Bolts.framework in Frameworks */,
+				D97E0BCC1D29D8C700E71057 /* FBSDKCoreKit.framework in Frameworks */,
+				D97E0BCD1D29D8C700E71057 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +117,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D97E0BB51D29AD6D00E71057 /* Logins */ = {
+			isa = PBXGroup;
+			children = (
+				D97E0BB61D29AD7800E71057 /* Facebook */,
+			);
+			name = Logins;
+			sourceTree = "<group>";
+		};
+		D97E0BB61D29AD7800E71057 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				D97E0BB11D29AD6100E71057 /* FacebookCilent.swift */,
+				D97E0BB21D29AD6100E71057 /* FacebookConstants.swift */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		D97E0BC51D29B0F100E71057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97E0BB71D29B0E900E71057 /* Core.h */,
+				D97E0BC21D29B0E900E71057 /* GGLConfiguration.h */,
+				D97E0BC31D29B0E900E71057 /* GGLContext.h */,
+				D97E0BC41D29B0E900E71057 /* GGLErrorCode.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97E0BDC1D29D8F000E71057 /* Project Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97E0BCE1D29D8DB00E71057 /* GoogleAppUtilities.framework */,
+				D97E0BCF1D29D8DB00E71057 /* GoogleAuthUtilities.framework */,
+				D97E0BD01D29D8DB00E71057 /* GoogleNetworkingUtilities.framework */,
+				D97E0BD11D29D8DB00E71057 /* GoogleSignIn.bundle */,
+				D97E0BD21D29D8DB00E71057 /* GoogleSignIn.framework */,
+				D97E0BD31D29D8DB00E71057 /* GoogleSymbolUtilities.framework */,
+				D97E0BD41D29D8DB00E71057 /* GoogleUtilities.framework */,
+				D97E0BC81D29D8C700E71057 /* Bolts.framework */,
+				D97E0BC91D29D8C700E71057 /* FBSDKCoreKit.framework */,
+				D97E0BCA1D29D8C700E71057 /* FBSDKLoginKit.framework */,
+			);
+			name = "Project Frameworks";
+			sourceTree = "<group>";
+		};
 		D98C21A31D2755F700481196 = {
 			isa = PBXGroup;
 			children = (
+				D97E0BDC1D29D8F000E71057 /* Project Frameworks */,
 				D98C21AE1D2755F700481196 /* DemoLoginsSDKs */,
 				D98C21C61D2755F800481196 /* DemoLoginsSDKsTests */,
 				D98C21D11D2755F800481196 /* DemoLoginsSDKsUITests */,
@@ -101,7 +186,10 @@
 		D98C21AE1D2755F700481196 /* DemoLoginsSDKs */ = {
 			isa = PBXGroup;
 			children = (
+				D97E0BC71D29D82F00E71057 /* DemoLoginsSDKs-Bridging-Header.h */,
 				D98C21AF1D2755F700481196 /* AppDelegate.swift */,
+				D97E0BC51D29B0F100E71057 /* Frameworks */,
+				D97E0BB51D29AD6D00E71057 /* Logins */,
 				D98C21E21D2757B000481196 /* ViewControllers */,
 				D98C21B31D2755F700481196 /* Main.storyboard */,
 				D98C21B91D2755F700481196 /* Assets.xcassets */,
@@ -273,7 +361,9 @@
 				D98C21B81D2755F700481196 /* DemoLoginsSDKs.xcdatamodeld in Sources */,
 				D98C21B21D2755F700481196 /* LoginViewController.swift in Sources */,
 				D98C21E11D27577D00481196 /* LogoutViewController.swift in Sources */,
+				D97E0BB41D29AD6100E71057 /* FacebookConstants.swift in Sources */,
 				D98C21B01D2755F700481196 /* AppDelegate.swift in Sources */,
+				D97E0BB31D29AD6100E71057 /* FacebookCilent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +459,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/DemoLoginsSDKs-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -407,6 +498,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/DemoLoginsSDKs-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -415,10 +507,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.13.1",
+					"$(PROJECT_DIR)/google_signin_sdk_4_0_0",
+				);
 				INFOPLIST_FILE = DemoLoginsSDKs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LayneFaler.DemoLoginsSDKs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoLoginsSDKs-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -426,10 +525,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.13.1",
+					"$(PROJECT_DIR)/google_signin_sdk_4_0_0",
+				);
 				INFOPLIST_FILE = DemoLoginsSDKs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LayneFaler.DemoLoginsSDKs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoLoginsSDKs-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -498,6 +604,7 @@
 				D98C21D91D2755F800481196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D98C21DA1D2755F800481196 /* Build configuration list for PBXNativeTarget "DemoLoginsSDKsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +613,7 @@
 				D98C21DC1D2755F800481196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D98C21DD1D2755F800481196 /* Build configuration list for PBXNativeTarget "DemoLoginsSDKsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +622,7 @@
 				D98C21DF1D2755F800481196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
