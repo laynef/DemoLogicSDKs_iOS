@@ -10,7 +10,7 @@
         <!--Logout View Controller-->
         <scene sceneID="g4H-iR-uIg">
             <objects>
-                <viewController id="7vV-qM-BZd" customClass="LogoutViewController" customModule="DemoLoginsSDKs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogoutViewController" id="7vV-qM-BZd" customClass="LogoutViewController" customModule="DemoLoginsSDKs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qfV-dn-qbh"/>
                         <viewControllerLayoutGuide type="bottom" id="3wR-pe-Jh9"/>
@@ -74,7 +74,7 @@
         <!--Login View Controller-->
         <scene sceneID="OcI-2V-8I2">
             <objects>
-                <viewController id="cay-o9-3Tb" customClass="LoginViewController" customModule="DemoLoginsSDKs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="cay-o9-3Tb" customClass="LoginViewController" customModule="DemoLoginsSDKs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CCl-BK-Rrh"/>
                         <viewControllerLayoutGuide type="bottom" id="Off-vO-kgW"/>

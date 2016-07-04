@@ -62,14 +62,12 @@ extension LoginViewController {
     }
     
     // Present a view that prompts the user to sign in with Google
-    func signIn(signIn: GIDSignIn!,
-                presentViewController viewController: UIViewController!) {
+    func signIn(signIn: GIDSignIn!, presentViewController viewController: UIViewController!) {
         self.presentViewController(viewController, animated: true, completion: nil)
     }
     
     // Dismiss the "Sign in with Google" view
-    func signIn(signIn: GIDSignIn!,
-                dismissViewController viewController: UIViewController!) {
+    func signIn(signIn: GIDSignIn!, dismissViewController viewController: UIViewController!) {
         self.dismissViewControllerAnimated(true, completion: nil)
     } 
     

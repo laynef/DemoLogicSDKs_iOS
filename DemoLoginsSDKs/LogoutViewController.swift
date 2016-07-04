@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleSignIn
+import FBSDKLoginKit
 
 class LogoutViewController: UIViewController {
     
@@ -17,6 +18,15 @@ class LogoutViewController: UIViewController {
     
     @IBAction func logoutButtonPressed(sender: AnyObject) {
         GIDSignIn.sharedInstance().signOut()
+        FBSDKLoginManager().logOut()
+        
+        let signInPage = self.storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") as! LoginViewController
+        
+        let signInPageNav = UINavigationController(rootViewController: signInPage)
+        signInPageNav.navigationBarHidden = true
+        
+        let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.window?.rootViewController = signInPageNav
     }
     
     override func viewDidLoad() {

@@ -46,6 +46,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             let familyName = user.profile.familyName
             let email = user.profile.email
             // ...
+            
+            let myStoryBoard:UIStoryboard = UIStoryboard(name:"Main", bundle: nil)
+            
+            let protectedPage = myStoryBoard.instantiateViewControllerWithIdentifier("LogoutViewController") as! LogoutViewController
+            
+            let protectedPageNav = UINavigationController(rootViewController: protectedPage)
+            
+            self.window?.rootViewController = protectedPageNav
+            
         } else {
             print("\(error.localizedDescription)")
         }
