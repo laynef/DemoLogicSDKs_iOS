@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleSignIn
 import FBSDKLoginKit
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
@@ -27,7 +28,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        GIDSignIn.sharedInstance().uiDelegate = self
+        googleSignInUI()
     }
 
     override func didReceiveMemoryWarning() {
@@ -70,6 +71,12 @@ extension LoginViewController {
     func signIn(signIn: GIDSignIn!,
                 dismissViewController viewController: UIViewController!) {
         self.dismissViewControllerAnimated(true, completion: nil)
+    } 
+    
+    // Google sign in UI
+    func googleSignInUI() {
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignInButtonColorScheme.Dark
     }
     
 }

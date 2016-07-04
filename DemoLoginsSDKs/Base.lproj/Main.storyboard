@@ -111,9 +111,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGY-pN-7UV" userLabel="Login LinkedIn Button">
                                 <rect key="frame" x="20" y="533" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.48951056910000001" green="0.95608367999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="ZGY-pN-7UV" secondAttribute="height" multiplier="56:3" id="AJU-4g-eCL"/>
-                                </constraints>
                                 <state key="normal" title="LinkedIn">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -124,9 +121,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xW-az-fyo">
                                 <rect key="frame" x="20" y="457" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.1023774595" green="0.65323520089999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="4xW-az-fyo" secondAttribute="height" multiplier="56:3" id="hGL-2Z-fQV"/>
-                                </constraints>
                                 <state key="normal" title="Twitter">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -134,19 +128,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xz4-iz-3es" customClass="FBSDKLoginButton">
                                 <rect key="frame" x="20" y="419" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="xz4-iz-3es" secondAttribute="height" multiplier="56:3" id="XXg-ZO-mmi"/>
-                                </constraints>
                                 <state key="normal" title="Facebook">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TeN-9y-bKt" customClass="GIDSignInButton">
                                 <rect key="frame" x="20" y="495" width="560" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="TeN-9y-bKt" secondAttribute="height" multiplier="56:3" id="RVM-bh-GlE"/>
-                                </constraints>
+                                <color key="backgroundColor" red="1" green="0.016661533320000001" blue="0.030134152439999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UrG-VT-X5U">
                                 <rect key="frame" x="20" y="203" width="560" height="30"/>
