@@ -6,8 +6,10 @@
 //  Copyright © 2016 Layne Faler. All rights reserved.
 //
 
-#ifndef DemoLoginsSDKs_Bridging_Header_h
-#define DemoLoginsSDKs_Bridging_Header_h
+#import <GoogleSignIn/GoogleSignIn.h>
 
+// MARK: - Google GGLContext Header Imports
 
-#endif /* DemoLoginsSDKs_Bridging_Header_h */
+#import "GGLConfiguration.h"
+#import "GGLContext.h"
+#import "GGLErrorCode.h"

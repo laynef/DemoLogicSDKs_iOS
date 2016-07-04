@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FBSDKLoginKit
 
 class LogoutViewController: UIViewController {
     
@@ -15,7 +16,8 @@ class LogoutViewController: UIViewController {
     @IBOutlet weak var logoutButton: UIBarButtonItem!
     
     @IBAction func logoutButtonPressed(sender: AnyObject) {
-        
+        FBSDKLoginManager().logOut()
+        GIDSignIn.sharedInstance().signOut()
     }
     
     override func viewDidLoad() {
