@@ -12,7 +12,6 @@ import Google
 import GoogleSignIn
 import Fabric
 import TwitterKit
-import LinkedinSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
@@ -66,15 +65,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         } else {
             print("\(error.localizedDescription)")
         }
-    }
-    
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
-        // Linkedin sdk handle redirect
-        if LinkedinSwiftHelper.shouldHandleUrl(url) {
-            return LinkedinSwiftHelper.application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
-        }
-        
-        return false
     }
 
     func applicationWillResignActive(application: UIApplication) {

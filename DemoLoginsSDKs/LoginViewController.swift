@@ -10,7 +10,6 @@ import UIKit
 import GoogleSignIn
 import FBSDKLoginKit
 import TwitterKit
-import LinkedinSwift
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
     

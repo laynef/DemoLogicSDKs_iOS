@@ -19,7 +19,6 @@
 		D98C21D31D2755F800481196 /* DemoLoginsSDKsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21D21D2755F800481196 /* DemoLoginsSDKsUITests.swift */; };
 		D98C21E11D27577D00481196 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C21E01D27577D00481196 /* LogoutViewController.swift */; };
 		D991ECDA1D2B0C9800073D17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D991ECD91D2B0C9800073D17 /* GoogleService-Info.plist */; };
-		D991ECE81D2B319D00073D17 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D991ECE71D2B319D00073D17 /* linkedin-sdk.framework */; };
 		ED8C914F4FF4EC009F5C32CD /* Pods_DemoLoginsSDKsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F83F02C0D1776643436970 /* Pods_DemoLoginsSDKsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 		D98C21D41D2755F800481196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98C21E01D27577D00481196 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		D991ECD91D2B0C9800073D17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D991ECE71D2B319D00073D17 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "linkedin-sdk.framework"; path = "li-ios-sdk-1.0.7-release/linkedin-sdk.framework"; sourceTree = "<group>"; };
 		E349481C02DCE2E72C717D5F /* Pods-DemoLoginsSDKsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginsSDKsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLoginsSDKsTests/Pods-DemoLoginsSDKsTests.release.xcconfig"; sourceTree = "<group>"; };
 		FBAC75A8634AE70ACB18A322 /* Pods-DemoLoginsSDKs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginsSDKs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLoginsSDKs/Pods-DemoLoginsSDKs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D991ECE81D2B319D00073D17 /* linkedin-sdk.framework in Frameworks */,
 				341F7499ECC395BABA57F96F /* Pods_DemoLoginsSDKs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +98,6 @@
 		85D7085180E9DD3608518FA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D991ECE71D2B319D00073D17 /* linkedin-sdk.framework */,
 				5C1EDF3F827412AE969B1F47 /* Pods_DemoLoginsSDKs.framework */,
 				39E2801586C56655CC80A1A3 /* Pods_DemoLoginsSDKsTests.framework */,
 				98F83F02C0D1776643436970 /* Pods_DemoLoginsSDKsUITests.framework */,
