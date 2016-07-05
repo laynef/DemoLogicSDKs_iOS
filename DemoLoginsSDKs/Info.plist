@@ -23,7 +23,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>li{Your LinkedIn app ID}</string>
+				<string>li4966841</string>
 			</array>
 		</dict>
 	</array>
@@ -53,7 +53,7 @@
 	<key>FacebookDisplayName</key>
 	<string>DemoLoginsSDKs</string>
 	<key>LIAppId</key>
-	<string>{Your LinkedIn app ID}</string>
+	<string>4966841</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>linkedin</string>

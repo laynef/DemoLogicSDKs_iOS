@@ -9,6 +9,7 @@
 import UIKit
 import GoogleSignIn
 import FBSDKLoginKit
+import TwitterKit
 
 class LogoutViewController: UIViewController {
     
@@ -29,6 +30,7 @@ extension LogoutViewController {
     @IBAction func logoutButtonPressed(sender: AnyObject) {
         GIDSignIn.sharedInstance().signOut()
         FBSDKLoginManager().logOut()
+        Twitter.sharedInstance().sessionStore.logOutUserID(TWTRAPIClient.clientWithCurrentUser().userID!)
         
         let signInPage = self.storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") as! LoginViewController
         

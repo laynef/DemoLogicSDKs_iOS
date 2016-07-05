@@ -10,6 +10,7 @@ import UIKit
 import GoogleSignIn
 import FBSDKLoginKit
 import TwitterKit
+import LinkedinSwift
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
     
@@ -22,9 +23,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
     @IBOutlet weak var loginFacebookButton: FBSDKLoginButton!
     @IBOutlet weak var loginTwitterButton: TWTRLogInButton!
     @IBOutlet weak var loginGoogleButton: GIDSignInButton!
-    @IBOutlet weak var loginLinkdInButton: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +31,6 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
         googleSignInUI()
         setupTwitterLogin()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
 // MARK: - Login View Controller (Facebook)
@@ -62,10 +54,6 @@ extension LoginViewController {
                 NSLog("Login error: %@", error!.localizedDescription);
             }
         }
-        
-        // TODO: Change where the log in button is positioned in your view
-//        logInButton.center = self.view.center
-//        self.view.addSubview(logInButton)
 
     }
     
@@ -98,11 +86,6 @@ extension LoginViewController {
         GIDSignIn.sharedInstance().uiDelegate = self
         GIDSignInButtonColorScheme.Dark
     }
-    
-}
-
-// MARK: - Login View Controller (LinkedIn)
-extension LoginViewController {
     
 }
 
