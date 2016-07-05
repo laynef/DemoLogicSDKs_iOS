@@ -118,7 +118,7 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="y9i-wn-JRI">
                                 <rect key="frame" x="290" y="290" width="20" height="20"/>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xW-az-fyo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xW-az-fyo" customClass="TWTRLogInButton">
                                 <rect key="frame" x="20" y="457" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.1023774595" green="0.65323520089999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Twitter">

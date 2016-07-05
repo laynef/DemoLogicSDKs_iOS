@@ -9,6 +9,7 @@
 import UIKit
 import GoogleSignIn
 import FBSDKLoginKit
+import TwitterKit
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
     
@@ -19,7 +20,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
     @IBOutlet weak var loginEnterButton: UIButton!
     @IBOutlet weak var loginSignUpButton: UIButton!
     @IBOutlet weak var loginFacebookButton: FBSDKLoginButton!
-    @IBOutlet weak var loginTwitterButton: UIButton!
+    @IBOutlet weak var loginTwitterButton: TWTRLogInButton!
     @IBOutlet weak var loginGoogleButton: GIDSignInButton!
     @IBOutlet weak var loginLinkdInButton: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -29,6 +30,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         googleSignInUI()
+        setupTwitterLogin()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +48,26 @@ extension LoginViewController {
 
 // MARK: - Login View Controller (Twitter)
 extension LoginViewController {
+    
+    func setupTwitterLogin() {
+        let logInButton = TWTRLogInButton { (session, error) in
+            if let unwrappedSession = session {
+                let alert = UIAlertController(title: "Logged In",
+                    message: "User \(unwrappedSession.userName) has logged in",
+                    preferredStyle: UIAlertControllerStyle.Alert
+                )
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                self.presentViewController(alert, animated: true, completion: nil)
+            } else {
+                NSLog("Login error: %@", error!.localizedDescription);
+            }
+        }
+        
+        // TODO: Change where the log in button is positioned in your view
+//        logInButton.center = self.view.center
+//        self.view.addSubview(logInButton)
+
+    }
     
 }
 

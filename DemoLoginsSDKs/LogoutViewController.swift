@@ -16,6 +16,16 @@ class LogoutViewController: UIViewController {
     @IBOutlet weak var logoutTitleLabel: UILabel!
     @IBOutlet weak var logoutButton: UIBarButtonItem!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        logoutTitleLabel.text = "Yay! It works!"
+    }
+
+}
+
+// MARK: - Logout Button Action
+extension LogoutViewController {
+    
     @IBAction func logoutButtonPressed(sender: AnyObject) {
         GIDSignIn.sharedInstance().signOut()
         FBSDKLoginManager().logOut()
@@ -29,9 +39,4 @@ class LogoutViewController: UIViewController {
         appDelegate.window?.rootViewController = signInPageNav
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        logoutTitleLabel.text = "Yay! It works!"
-    }
-
 }
