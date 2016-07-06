@@ -1,0 +1,6 @@
+framework module Pods_DemoLoginsSDKs {
+  umbrella header "Pods-DemoLoginsSDKs-umbrella.h"
+
+  export *
+  module * { export * }
+}

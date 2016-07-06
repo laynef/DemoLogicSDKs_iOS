@@ -616,10 +616,6 @@
 				);
 				INFOPLIST_FILE = DemoLoginsSDKs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"-ObjC",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = LayneFaler.DemoLoginsSDKs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -641,10 +637,6 @@
 				);
 				INFOPLIST_FILE = DemoLoginsSDKs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(OTHER_LDFLAGS)",
-					"-ObjC",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = LayneFaler.DemoLoginsSDKs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
